@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+html{
+    height: 100%;
+}
+body{
+    background: url(put-your-image-here.png) no-repeat ;
+    background-size:cover;
+    height: 100%;
+    background-color: #311D5E;
+}
+.all{
+    height: 100%;
+    position: relative;
+}
+.topTape{
+    height: 12%;
+    background-color: #311D5E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+}
+.colorImg{
+    height: 88%;
+    background-color: #311D5E;
+    opacity: 0.7;
+}
+.allbuts{
+    display: flex;
+    margin-left: 10%;
+}
+.imgLogo{
+    height: 60px;
+    margin-right: 25%;
+}
+.onbuts{
+    padding: 15px;
+}
+.button{
+    height: 2%;
+    color: white;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.button:hover{
+    transition: 0.4s;
+    cursor: pointer;
+    color:  #00e0d0;
+}
+.textCenter{
+    font-size: 35px;
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 37%;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.borderBottom{
+    margin-top: 5%;
+    border-bottom: 2px solid #00e0d0;
+    width: 13%;
+}
+.text{
+    width: 56%;
+    color: white;
+    position: absolute;
+    top: 45.6%;
+    left: 22%;
+    font-size: 18px;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.butbot{
+    position: absolute;
+    top: 57%;
+    left: 47%;
+    border: 2px solid #00e0d0;
+    border-radius: 2px;
+    padding: 10px;
+    color: #00e0d0;
+    transition: 0.3s;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Hammersmith One', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+}
+.butbot:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #00e0d0;
+    color: white;
+}
+.dots{
+    display: flex;
+    position: absolute;
+    top: 92%;
+    left: 48%;
+}
+.dot{
+    width: 9px;
+    height: 9px;
+    border: 1px solid white;
+    padding: 1px;
+    border-radius: 999px;
+    margin: 4px;
+    transition: 0.2s;
+}
+.dot:hover{
+    cursor: pointer;
+    background-color: #00e0d0;
+    transition: 0.2s;
+}
